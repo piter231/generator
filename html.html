@@ -6,6 +6,9 @@
     <body>
         <script>
             var nazwa = prompt("nazwa emotki", "wpisz nazwę emotki");
+            if (nazwa[0]!=':'){
+                nazwa=':'+nazwa+':';
+            }
             document.writeln(nazwa,":black_medium_square:",":black_medium_square:",nazwa,nazwa,nazwa,nazwa,"<br />");
             document.write(nazwa,":black_medium_square:",":black_medium_square:",nazwa,"<br />");
             document.write(nazwa,":black_medium_square:",":black_medium_square:",nazwa,"<br />")
